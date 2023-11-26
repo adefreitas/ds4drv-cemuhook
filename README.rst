@@ -281,6 +281,8 @@ to ``/etc/modules-load.d``. For example:
     # Load uinput module at boot
     uinput
 
+## Controller not detected by game
+Some games are missing an implementation of an API that prevents DS4 from being detected, either by Steam Input, or by emulating as xboxdrv, use python3 -m ds4drv --hidraw --emulate-xpad instead to work around it
 
 References
 ----------
